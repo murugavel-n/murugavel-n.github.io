@@ -33,7 +33,6 @@ body {
 }
 
 .label-2 {
-  /* color: #8b8b8b; */
   font-size: 1.75em;
 }
 
@@ -41,7 +40,7 @@ body {
   width: 2em;
   height: 2em;
   background-color: #fff;
-  color: #555555;
+  color: #555;
   border-radius: 50%;
   display: -webkit-inline-flex;
   display: inline-flex;
@@ -53,11 +52,12 @@ body {
   margin: 1.25em;
   cursor: pointer;
   border: 1px solid #fff;
+  transition: background-color 1s linear ease-in-out;
 }
 
 .communication-channels a:active,
 .communication-channels a:focus,
 .communication-channels a:hover {
-  background-color: #555555;
+  background-color: #555;
   color: #fff;
 }
